@@ -1,6 +1,6 @@
 {
     "name": "thusdev-fetch",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A lightweight developer experience engine for HTTP requests with interceptors, plugins, retry, timeout and debug tools",
     "repository": {
         "type": "git",
