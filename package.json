@@ -1,6 +1,6 @@
 {
   "name": "thusdev-fetch",
-  "version": "1.5.0",
+  "version": "1.0.3",
   "description": "A lightweight, TypeScript-first HTTP client with security controls, safe retries, interceptors, plugins, caching, streaming responses, observability, and request timing.",
   "repository": {
     "type": "git",

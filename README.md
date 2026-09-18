@@ -9,6 +9,27 @@ A lightweight, TypeScript-first HTTP client built on native `fetch` for modern a
 
 ThusDev Fetch provides safe retries, timeouts, interceptors, plugins, structured errors, secure debug logging, caching, request metrics, and request timing without replacing the simplicity of `fetch`.
 
+# Concept
+
+ThusDev Fetch is more than an HTTP client.
+
+It is a developer experience layer for working with APIs.
+
+Built on native fetch, it keeps the simplicity of standard web APIs while adding the controls and abstractions needed for modern applications: retries, timeouts, caching, interceptors, plugins, structured errors, security controls, metrics, and request lifecycle hooks.
+
+The goal is simple: make API calls easier to write, safer to operate, and easier to standardize across projects.
+
+
+# Why This Exists
+
+Most HTTP clients focus on providing a broad set of features.
+
+ThusDev Fetch focuses on the developer experience around API calls.
+
+It reduces repetitive request logic and provides a consistent way to handle common concerns such as errors, retries, timeouts, authentication, caching, logging, and observability.
+
+Instead of replacing fetch, ThusDev Fetch builds on it to provide a lightweight and extensible layer that teams can adapt to their own applications.
+
 ## Requirements
 
 - Node.js 18 or newer
@@ -434,8 +455,8 @@ npm run typecheck
 npm test
 npm run build
 npm pack --dry-run
-git tag v1.5.0
-git push origin v1.5.0
+git tag v1.0.3
+git push origin v1.0.3
 ```
 
 The GitHub release workflow validates the package and publishes it to npm with provenance. No npm token is stored in the repository; publishing is performed through npm trusted publishing/OIDC.
@@ -473,11 +494,6 @@ See [SECURITY.md](SECURITY.md) for the security policy and vulnerability reporti
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
-
-## Development and Testing
-
-- TEST_COMMANDS.md — complete command reference for development and validation
-- TEST_BEFORE_DEPLOYING.md — pre-release and pre-deployment checklist
 
 ## License
 

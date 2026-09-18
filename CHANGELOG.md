@@ -1,14 +1,19 @@
 # Changelog
 
-## 1.5.0
+All notable changes to this project are documented here.
+
+## [1.0.3] - 2026-09-18
+
+### Added
 
 - Added bounded streaming response enforcement for `maxResponseSize`.
 - Added stale-while-revalidate deduplication to prevent concurrent background revalidation storms.
 - Added deterministic malformed-URL fuzz coverage.
 - Added a complete command reference for testing, security validation, packaging and release operations.
 
+## [1.0.2] - 2026-09-18
 
-## 1.4.0
+### Added
 
 - Added guarded manual redirect handling with destination validation and redirect limits.
 - Added `responseType` support for JSON, text, ArrayBuffer, Blob, and streams.
@@ -16,10 +21,7 @@
 - Added a complete pre-deployment verification checklist.
 - Expanded compatibility, security, performance, and release documentation.
 
-
-All notable changes to this project are documented here.
-
-## [1.2.0] - 2026-09-18
+## [1.0.1] - 2026-09-18
 
 ### Added
 
@@ -45,7 +47,7 @@ All notable changes to this project are documented here.
 - Expanded deterministic test coverage.
 - Package metadata and release configuration.
 
-## [1.1.0] - 2026-09-17
+## [1.0.0] - 2026-09-17
 
 ### Added
 
@@ -60,8 +62,10 @@ All notable changes to this project are documented here.
 - Deterministic mocked test suite.
 - CI, security policy, contributing guide, and code of conduct.
 
-[1.2.0]: https://github.com/ThusDev/thusdev-fetch/releases/tag/v1.2.0
-[1.1.0]: https://github.com/ThusDev/thusdev-fetch/releases/tag/v1.1.0
+[1.0.3]: https://github.com/ThusDev/thusdev-fetch/releases/tag/v1.0.3
+[1.0.2]: https://github.com/ThusDev/thusdev-fetch/releases/tag/v1.0.2
+[1.0.1]: https://github.com/ThusDev/thusdev-fetch/releases/tag/v1.0.1
+[1.0.0]: https://github.com/ThusDev/thusdev-fetch/releases/tag/v1.0.0
 
 ## Security note
 
