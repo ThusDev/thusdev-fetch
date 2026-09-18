@@ -1,0 +1,103 @@
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/.package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/async_hooks.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/child_process.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/crypto.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/events.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/fs.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/fs/promises.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/http2.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/inspector.generated.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/module.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/process.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/quic.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/repl.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/sqlite.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/stream.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/stream/web.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/test.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/test/reporters.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/ts5.6/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/ts5.7/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/url.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/vm.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/web-globals/streams.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/client.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/connector.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/dispatcher.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/errors.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/interceptors.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/webidl.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/websocket.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/core/client.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/core/config.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/features/interceptors.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/features/plugins.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/features/retry.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/features/timeline.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/features/timeout.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/utils/error-explainer.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/utils/error.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/utils/logger.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+ .gitignore                                        |   8 [32m+[m[31m-[m
+ README.md                                         | 487 [32m++++++++++++++++[m[31m--[m
+ node_modules/.package-lock.json                   |  22 [32m+[m[31m-[m
+ node_modules/@types/node/README.md                |   4 [32m+[m[31m-[m
+ node_modules/@types/node/async_hooks.d.ts         | 108 [32m++++[m
+ node_modules/@types/node/child_process.d.ts       |   2 [32m+[m[31m-[m
+ node_modules/@types/node/crypto.d.ts              |  17 [32m+[m[31m-[m
+ node_modules/@types/node/events.d.ts              |  15 [32m+[m[31m-[m
+ node_modules/@types/node/fs.d.ts                  | 138 [32m++++[m[31m-[m
+ node_modules/@types/node/fs/promises.d.ts         | 173 [32m++++++[m[31m-[m
+ node_modules/@types/node/http2.d.ts               |  21 [32m+[m[31m-[m
+ node_modules/@types/node/index.d.ts               |   2 [32m+[m
+ node_modules/@types/node/inspector.generated.d.ts |   5 [32m+[m
+ node_modules/@types/node/module.d.ts              |   1 [32m+[m
+ node_modules/@types/node/package.json             |   8 [32m+[m[31m-[m
+ node_modules/@types/node/process.d.ts             |  81 [32m++[m[31m-[m
+ node_modules/@types/node/quic.d.ts                |   4 [32m+[m[31m-[m
+ node_modules/@types/node/repl.d.ts                |  15 [32m+[m
+ node_modules/@types/node/sqlite.d.ts              |  61 [32m++[m[31m-[m
+ node_modules/@types/node/stream.d.ts              |   2 [32m+[m[31m-[m
+ node_modules/@types/node/stream/web.d.ts          |   4 [32m+[m
+ node_modules/@types/node/test.d.ts                | 109 [32m+++[m[31m-[m
+ node_modules/@types/node/test/reporters.d.ts      |   1 [32m+[m
+ node_modules/@types/node/ts5.6/index.d.ts         |   2 [32m+[m
+ node_modules/@types/node/ts5.7/index.d.ts         |   2 [32m+[m
+ node_modules/@types/node/url.d.ts                 |  30 [32m+[m[31m-[m
+ node_modules/@types/node/vm.d.ts                  | 144 [32m++[m[31m----[m
+ node_modules/@types/node/web-globals/streams.d.ts |   4 [32m+[m
+ node_modules/undici-types/client.d.ts             |   5 [32m+[m
+ node_modules/undici-types/connector.d.ts          |   2 [32m+[m
+ node_modules/undici-types/dispatcher.d.ts         |  13 [32m+[m[31m-[m
+ node_modules/undici-types/errors.d.ts             |  18 [32m+[m[31m-[m
+ node_modules/undici-types/index.d.ts              |   5 [32m+[m[31m-[m
+ node_modules/undici-types/interceptors.d.ts       |   7 [32m+[m
+ node_modules/undici-types/package.json            |   2 [32m+[m[31m-[m
+ node_modules/undici-types/webidl.d.ts             |   6 [32m+[m
+ node_modules/undici-types/websocket.d.ts          |   2 [32m+[m
+ package-lock.json                                 |  34 [32m+[m[31m-[m
+ package.json                                      |  93 [32m++[m[31m--[m
+ src/core/client.ts                                | 601 [32m+++++++++++++++++++[m[31m---[m
+ src/core/config.ts                                |   4 [32m+[m[31m-[m
+ src/features/interceptors.ts                      |  50 [32m+[m[31m-[m
+ src/features/plugins.ts                           |  38 [32m+[m[31m-[m
+ src/features/retry.ts                             | 102 [32m+++[m[31m-[m
+ src/features/timeline.ts                          |   6 [32m+[m[31m-[m
+ src/features/timeout.ts                           |   8 [32m+[m[31m-[m
+ src/index.ts                                      |  16 [32m+[m[31m-[m
+ src/utils/error-explainer.ts                      |  23 [32m+[m[31m-[m
+ src/utils/error.ts                                |  51 [32m+[m[31m-[m
+ src/utils/logger.ts                               |  21 [32m+[m[31m-[m
+ tsconfig.json                                     |  27 [32m+[m[31m-[m
+ 51 files changed, 2160 insertions(+), 444 deletions(-)

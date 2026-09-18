@@ -1,3 +1,15 @@
-export { ThusFetch } from "./core/client";
+export { ThusFetch, createClient } from "./core/client";
+export type { HttpMethod, RequestConfig, ResponseData, RetryConfig } from "./core/client";
 export { ThusError } from "./utils/error";
+export type { ThusErrorCode, ThusErrorOptions } from "./utils/error";
 export { setDebug } from "./core/config";
+export { retry, isRetryableError } from "./features/retry";
+export type { RetryOptions, RetryContext } from "./features/retry";
+export type { Plugin } from "./features/plugins";
+export type { CacheOptions } from "./features/cache";
+export type { RequestHooks } from "./features/hooks";
+export type { RequestMetrics } from "./utils/metrics";
+export type { SecurityOptions } from "./utils/security";
+export { createAuthPlugin } from "./plugins/auth";
+export type { AuthTokenProvider } from "./plugins/auth";
+export { createLoggingPlugin } from "./plugins/logging";

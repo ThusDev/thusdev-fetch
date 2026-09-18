@@ -1,31 +1,66 @@
 {
-    "name": "thusdev-fetch",
-    "version": "1.0.3",
-    "description": "A lightweight developer experience engine for HTTP requests with interceptors, plugins, retry, timeout and debug tools",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/amthus/thusdev-fetch"
-    },
-    "homepage": "https://github.com/amthus/thusdev-fetch#readme",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "scripts": {
-        "build": "tsc",
-        "test": "ts-node test/basic.test.ts"
-    },
-    "keywords": [
-        "http",
-        "fetch",
-        "api",
-        "axios",
-        "ky",
-        "developer-experience",
-        "thusdev"
-    ],
-    "author": "ThusDev",
-    "license": "MIT",
-    "devDependencies": {
-        "ts-node": "^10.9.2",
-        "typescript": "^5.0.0"
-    }
+  "name": "thusdev-fetch",
+  "version": "1.5.0",
+  "description": "A lightweight, TypeScript-first HTTP client with security controls, safe retries, interceptors, plugins, caching, streaming responses, observability, and request timing.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThusDev/thusdev-fetch.git"
+  },
+  "homepage": "https://github.com/ThusDev/thusdev-fetch#readme",
+  "bugs": {
+    "url": "https://github.com/ThusDev/thusdev-fetch/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "docs",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "TEST_BEFORE_DEPLOYING.md",
+    "TEST_COMMANDS.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "typecheck": "tsc --noEmit",
+    "test": "ts-node test/run.ts",
+    "prepublishOnly": "npm run clean && npm run build && npm test",
+    "pack:check": "npm pack --dry-run",
+    "benchmark": "node benchmark/http-client.mjs",
+    "security:check": "npm audit --audit-level=high",
+    "release:check": "npm run typecheck && npm test && npm run build && npm run security:check && npm pack --dry-run",
+    "benchmark:compare": "node benchmark/http-client.mjs"
+  },
+  "keywords": [
+    "http",
+    "fetch",
+    "api",
+    "http-client",
+    "typescript",
+    "retry",
+    "timeout",
+    "interceptors",
+    "plugins",
+    "developer-experience",
+    "thusdev"
+  ],
+  "author": "ThusDev",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "dependencies": {
+    "thusdev-fetch": "^1.0.3"
+  }
 }

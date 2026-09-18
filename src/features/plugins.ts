@@ -1,28 +1,34 @@
-import { RequestConfig } from "../core/client";
+import type { RequestConfig, ResponseData } from "../core/client";
 
 export type Plugin = {
-  beforeRequest?: (config: RequestConfig) => RequestConfig;
-  afterResponse?: (response: any) => any;
+  beforeRequest?: (config: RequestConfig) => RequestConfig | Promise<RequestConfig>;
+  afterResponse?: (response: ResponseData) => ResponseData | Promise<ResponseData>;
 };
 
 export class PluginManager {
-  plugins: Plugin[] = [];
+  private plugins: Plugin[] = [];
 
-  use(plugin: Plugin) {
+  use(plugin: Plugin): void {
     this.plugins.push(plugin);
   }
 
-  runBefore(config: RequestConfig) {
-    return this.plugins.reduce(
-      (acc, p) => (p.beforeRequest ? p.beforeRequest(acc) : acc),
-      config
-    );
+  remove(plugin: Plugin): void {
+    this.plugins = this.plugins.filter((item) => item !== plugin);
   }
 
-  runAfter(response: any) {
-    return this.plugins.reduce(
-      (acc, p) => (p.afterResponse ? p.afterResponse(acc) : acc),
-      response
-    );
+  async runBefore(config: RequestConfig): Promise<RequestConfig> {
+    let current = config;
+    for (const plugin of this.plugins) {
+      if (plugin.beforeRequest) current = await plugin.beforeRequest(current);
+    }
+    return current;
+  }
+
+  async runAfter(response: ResponseData): Promise<ResponseData> {
+    let current = response;
+    for (const plugin of this.plugins) {
+      if (plugin.afterResponse) current = await plugin.afterResponse(current);
+    }
+    return current;
   }
 }

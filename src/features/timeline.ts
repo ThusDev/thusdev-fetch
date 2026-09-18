@@ -1,7 +1,7 @@
-export function startTimer() {
+export function startTimer(): number {
   return Date.now();
 }
 
-export function endTimer(start: number) {
+export function endTimer(start: number): number {
   return Date.now() - start;
 }
